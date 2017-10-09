@@ -2,10 +2,12 @@ body{
     background-color:#E9EBEE;
 }
 #my-nav{
+    color: white;
     background-color: #4060B7;
-    height: 42px;
-    margin-bottom: 10px;
+}
 
+#my-nav a{
+    color: white !important;
 }
 
 section{
@@ -17,21 +19,30 @@ section{
 }
 
 .red{
-    background-color: red;
+    background-color: lightgrey;
 }
 
 .pink{
-    background-color: pink;
+    background-color: lightgrey;
     margin-right: 10px;
     margin-left: 10px;
 }
 
 .orange{
-    background-color: orange;
+    background-color: lightgrey;
 }
 
 .footer{
     height: 42px;
     background-color: black;
     margin-top: 10px;
+}
+
+.searchbar{
+    min-width: 400px;
+}
+
+#darkerColor span{
+    color: #0D1325;
+    font-size: 20px;
 }
