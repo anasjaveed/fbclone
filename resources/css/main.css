@@ -8,6 +8,10 @@ body{
 
 }
 
+section{
+    padding:0 !important;
+}
+
 .red, .pink, .orange{
     height: 500px;
 }
@@ -18,6 +22,8 @@ body{
 
 .pink{
     background-color: pink;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .orange{
