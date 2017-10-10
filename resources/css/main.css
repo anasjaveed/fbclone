@@ -46,3 +46,30 @@ section{
     color: #0D1325;
     font-size: 20px;
 }
+
+.list-heading{
+padding: 20px 15px 0 15px;
+}
+
+.post-section, .ads{
+    height: 700px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.panel{
+    margin-bottom: 8px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#main::-webkit-scrollbar {
+    display: none;
+}
