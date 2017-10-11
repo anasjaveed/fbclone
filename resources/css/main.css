@@ -55,8 +55,16 @@ padding: 20px 15px 0 15px;
     height: 700px;
     margin-right: 10px;
     margin-left: 10px;
+    overflow: scroll;
 }
 
+.post-section::-webkit-scrollbar {
+    display: none;
+}
+
+.ads::-webkit-scrollbar{
+    display: none;
+}
 .panel{
     margin-bottom: 8px;
 }
@@ -70,6 +78,3 @@ padding: 20px 15px 0 15px;
     margin-top: 0;
 }
 
-#main::-webkit-scrollbar {
-    display: none;
-}
