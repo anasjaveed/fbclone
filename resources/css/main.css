@@ -78,3 +78,23 @@ padding: 20px 15px 0 15px;
     margin-top: 0;
 }
 
+.comments-toolkit{
+    margin-top: 5px;
+}
+.comments-toolkit span{
+     margin-left:5px ;
+}
+
+.comment-box{
+    width:100%;
+    border-radius: 10px;
+    height: 32px;
+    color: grey;
+    border: 0;
+}
+
+.comment-box:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
