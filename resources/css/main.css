@@ -103,3 +103,13 @@ padding: 20px 15px 0 15px;
     margin-left: 5px;
     margin-right: 5px;
 }
+
+#header{
+    margin-top: 80px;
+}
+
+.stories{
+    border-image: round;
+    border-color: blue;
+}
+

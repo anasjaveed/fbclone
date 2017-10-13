@@ -14,7 +14,8 @@
 
 </head>
 <body>
-<nav class="navbar navbar-default" id="my-nav">
+<header id="header">
+<nav class="navbar navbar-default navbar-fixed-top" id="my-nav">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -47,7 +48,8 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
-<div class="container">
+</header>
+<div class="container cont">
     <article class="row wrapper">
         <section class="col-md-2 hidden-xs hidden-sm">
             <div>
@@ -312,30 +314,129 @@
                 </div>
         </div>
         </section>
-        <section class="col-md-3"><div class="ads">
-            <div>
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active">
-                        <a href="#top" aria-controls="home" role="tab" data-toggle="tab">
-                            <i class="fa fa-line-chart" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#politics" aria-controls="profile" role="tab" data-toggle="tab">
-                            <i class="fa fa-university" aria-hidden="true"></i></a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#sports" aria-controls="messages" role="tab" data-toggle="tab">
-                            <i class="fa fa-flask" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                </ul>
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="top">1</div>
-                    <div role="tabpanel" class="tab-pane" id="politics">2</div>
-                    <div role="tabpanel" class="tab-pane" id="sports">3</div>
+        <section class="col-md-3 hidden-xs">
+            <div class="ads">
+            <div class="panel panel-default card-margin">
+                <div class="panel-heading">
+            <span><h4 class="t">Trending</h4>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#top-trends"><i class="fa fa-line-chart text-muted" aria-hidden="true"></i></a></li>
+                <li><a data-toggle="tab" href="#politics"><i class="fa fa-university text-muted" aria-hidden="true"></i></a></li>
+                <li><a data-toggle="tab" href="#sports"><i class="fa fa-futbol-o text-muted" aria-hidden="true"></i></a></li>
+            </ul>
+          </span>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div id="top-trends" class="tab-pane fade in active">
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item">
+                                    <p class="list-group-item-text">Donald Trump
+                                        Trump expected to make U.S. move against Iran nuclear deal -officials <span style="color: darkgrey;">‑ reuters.com</span></p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item ">
+                                    <p class="list-group-item-text">India vs. Australia
+                                        Tait: Biggest decision in cricket in a long time - ESPN Video ‑ <span style="color: darkgrey;">espn.com</span></p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item">
+                                    <p class="list-group-item-text">UNESCO
+                                        US withdraws from Unesco over 'anti-Israel bias' <span style="color: darkgrey;">‑ msn.com</span></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="politics" class="tab-pane fade">
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item">
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item">
+                                    <p class="list-group-item-text">somethng</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item ">
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="sports" class="tab-pane fade">
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item">
+                                    <p class="list-group-item-text">Indian Cricket Team on their way to thrash Australia in 2nd T20I to seal the series</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item">
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item">
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div></div>
+                <div class="panel panel-default card-margin">
+                    <div class="panel-body">
+                        <!--<div>The impressionistic art of <b>Alankar Singh</b> are deeply inspired by dream art and its various aspects. Alankar, who lives in India, is fascinated by the interplay of color, shape and draws upon these elements in various life aspects. Alankar prefers working with pencil, water Color, and acrylics and also have spare time for his hobby. Alankar Singh is also a Engineering student pursuing B.Tech. in Electronics & Communication Engineering from University Institute of Engineering & Technology, Kurukshetra University, Kurukshetra.</div><br>
+                        <div><b><q>For me art is an expression of an artist which he/she observes in day-to-day life.</q></b></div>
+                        <div><b>- Alankar Singh</b></div></div></div>-->
+
+                        <h5 class="text-muted">Stories</h5>
+                        <div class="media-left">
+                            <a href="#" data-toggle="tooltip" title="Watch Your Story!">
+                                <img class="media-object img-circle" src="http://res.cloudinary.com/widelimit/image/upload/v1507825721/18699562_10211658574971746_7007812594088199822_o_ftxjrq.jpg
+"height="40" width="40" alt="nasir">
+                            </a><p>Anas</p>
+                        </div>
+                        <div class="media-left">
+                            <a href="#" data-toggle="tooltip" title="Watch Shiraz's Story!">
+                                <img class="media-object img-circle" src="http://res.cloudinary.com/widelimit/image/upload/v1507825914/19417267_865624443577091_4748503785570104636_o_egcpzf.jpg
+"height="40" width="40" alt="nasir">
+                            </a><p>Shiraz</p>
+                        </div>
+                        <div class="media-left">
+                            <a href="#" data-toggle="tooltip" title="Watch Kabeer's Story!">
+                                <img class="media-object img-circle" src="http://res.cloudinary.com/widelimit/image/upload/v1507826415/12508812_798543340274691_18577137207937882_n_uacgez.jpg
+
+"height="40" width="40" alt="nasir">
+
+                            </a><p>Kabeer</p>
+                        </div>
+                        <div class="media-left">
+                            <a href="#" data-toggle="tooltip" title="Watch Nasir's Story!">
+                                <img class="media-object img-circle" src="http://res.cloudinary.com/widelimit/image/upload/v1507826492/19956582_1382174058486089_60346959517675314_o_hxekqc.jpg
+"height="40" width="40" alt="nasir">
+                            </a> <p>Nasir</p>
+                        </div>
+                        <div class="media-left">
+                            <a href="#" data-toggle="tooltip" title="Watch Souban's Story!">
+                                <img class="media-object img-circle stories" src="http://res.cloudinary.com/widelimit/image/upload/v1507826261/14702506_1376452855698728_1494432878196657574_n_yrtxkh.jpg
+"height="40" width="40" alt="nasir">
+                            </a><p>Souban</p>
+                        </div>
+
+
+                    </div>
                 </div>
+            <div class="panel panel-default card-margin">
+                <div class="panel-body">
+                <!--<div>The impressionistic art of <b>Alankar Singh</b> are deeply inspired by dream art and its various aspects. Alankar, who lives in India, is fascinated by the interplay of color, shape and draws upon these elements in various life aspects. Alankar prefers working with pencil, water Color, and acrylics and also have spare time for his hobby. Alankar Singh is also a Engineering student pursuing B.Tech. in Electronics & Communication Engineering from University Institute of Engineering & Technology, Kurukshetra University, Kurukshetra.</div><br>
+                <div><b><q>For me art is an expression of an artist which he/she observes in day-to-day life.</q></b></div>
+                <div><b>- Alankar Singh</b></div></div></div>-->
+
+
+                            <a href="#"><i class="fa fa-calendar-o ficons" aria-hidden="true"></i>1 event invite</a>
+
+
+            </div>
             </div>
         </section>
     </article>
@@ -350,6 +451,11 @@
         </ul>
     </footer>
 </div>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
 </body>
 </html>
 
