@@ -113,3 +113,10 @@ padding: 20px 15px 0 15px;
     border-color: blue;
 }
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #header{
+        margin-top: 150px;!important;
+    }
+}
+
